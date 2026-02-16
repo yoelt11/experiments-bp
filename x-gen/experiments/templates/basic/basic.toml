@@ -1,0 +1,19 @@
+[example]
+name = "basic_ml_experiment"
+
+structure = """
+├── README.md              # Experiment documentation and usage notes
+├── common.py              # Shared utilities (helpers, configs, reusable functions)
+├── run_training.py        # Main training entry point
+├── evaluate.py            # Model evaluation / metrics computation
+├── run_pipeline.py        # End-to-end pipeline (training + evaluation)
+├── results/               # Stores training outputs / checkpoints
+│   └── train_results.pkl
+├── figures/               # Generated plots / visualizations
+│   ├── rl2_curves.png
+│   ├── loss_curves.png
+│   ├── gradient_ratios.png
+│   └── summary_table.txt
+└── data/                  # Stores data
+    └── data.csv
+"""
