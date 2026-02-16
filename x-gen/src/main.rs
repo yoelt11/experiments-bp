@@ -10,7 +10,7 @@ use dirs::home_dir;
 #[clap(
     author = "Edgar Torres <edgar.torres@ki.uni-stuttgart.de>",
     version = "1.0.0",
-    about = "X-Gen - Advanced Experiment Structure Generator\n\nA CLI tool to generate consistent, well-structured experiment layouts\nfor researchers, data scientists, and developers.\n\nCreator: Edgar Torres <edgar.torres@ki.uni-stuttgart.de>"
+    about = "X-Gen - Advanced Experiment Structure Generator\n\nA CLI tool to generate consistent, well-structured experiment layouts\nfor researchers, data scientists, and developers.\n\nTemplates are loaded from ~/.x-gen/templates/ (custom) or embedded defaults.\n\nCreator: Edgar Torres <edgar.torres@ki.uni-stuttgart.de>"
 )]
 struct Args {
     name: String,
