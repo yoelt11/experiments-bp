@@ -1,0 +1,32 @@
+# Generated files
+target/
+
+# Environment specific files
+.env
+.env.local
+.env.production
+.env.development
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# Configuration files
+config/
+
+# Documentation
+QWEN.md
